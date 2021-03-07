@@ -24,10 +24,10 @@ if (navbarWidth > 768) {
         // console.log(`navbarHeight : ${navbarHeight}`)
         if (window.scrollY > navbarHeight) {
             navbar.classList.add('navbar--dark');
-            $("#navbar a img").attr("src", "images/logo_Ver2.png")
+            $("#navbar a img").attr("src", "images/logo_blue_v1.png")
         } else {
             navbar.classList.remove('navbar--dark');
-            $("#navbar a img").attr("src", "images/logo_Ver1.png")
+            $("#navbar a img").attr("src", "images/logo_white_v1.png")
         }
     });
 }

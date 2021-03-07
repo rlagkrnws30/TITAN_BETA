@@ -14,8 +14,8 @@
     --font-micro: 14px;
     /*Font weight*/
     --weight-bold: 700;
-    --weight-semi-bold: 600;
-    --weight-regular: 400;
+    --weight-semi-bold: 500;
+    --weight-regular: 200;
     /*Size*/
     --size-border-radius: 4px
 }
@@ -65,7 +65,7 @@ h2 {
 
 h3 {
     font-size: var(--font-regular);
-    font-weight: var(--font-regular);
+    font-weight: var(--weight-regular);
     color: var(--color-black);
     margin: 8px 0px;
 }
@@ -86,17 +86,17 @@ p {
 }
 
 .detail {
-    font-size: var(--font-medium);
+    font-size: var(--font-regular);
     font-weight: var(--weight-bold);
-    margin: 24px;
-    padding: 12px 36px;
-    border: 2px solid var(--color-dark-blue);
+    margin: auto;
+    padding: 22px 82px;
+    border: 2px solid var(--color-white);
     border-radius: var(--size-border-radius);
-    background-color: var(--color-dark-blue);
+    background-color: transparent;
     color: var(--color-white);
-    position: absolute;
-    bottom: 5%;
-    right: 5%;
+    /*position: absolute;*/
+    /*bottom: 5%;*/
+    /*right: 5%;*/
 }
 
 /*Navbar*/
@@ -255,19 +255,19 @@ p {
 /*}*/
 
 /*about*/
-#about {
-}
 
 .about__text {
     max-width: 1200px;
     margin: auto;
+    padding-top: 300px
 }
 
 .about__title {
     margin-top: 0px;
-    padding: 100px 0 75px 0;
+    padding: 0px 0 75px 0;
     width: 75%;
     color: var(--color-white);
+    font-size: 50px
 }
 
 .about__slogan {
@@ -279,13 +279,13 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 750px;
+    height: 941px;
     margin: auto;
 }
 
 .about1__overlay {
     background-color: rgba(0, 0, 0, 0.5);
-    height: 750px;
+    height: 941px;
     width: 100%;
     margin: auto;
     padding: 40px;
@@ -293,25 +293,35 @@ p {
 
 .about2 {
     background: url("images/about_2.png") center/cover no-repeat;
-    height: 750px;
+    height: 941px;
     padding: 40px;
 }
 
 .about3 {
     background: url("images/about_3.png") center/cover no-repeat;
-    height: 750px;
+    height: 941px;
     padding: 40px;
 }
 
 /*inform*/
 #inform {
-    width: 1200px;
     margin: auto;
-    height: 700px;
+    background-color: #3DACFF;
+}
+
+.inform__container {
+    height: 1000px;
 }
 
 .inform__h1 {
-    width: 75%;
+    color: var(--color-white);
+    margin-top: 220px;
+}
+
+.inform__h3 {
+    color: var(--color-white);
+    margin-top: 40px;
+    margin-bottom: 45px;
 }
 
 .inform__logo {
@@ -320,9 +330,9 @@ p {
     margin: auto;
 }
 
-.inform__h1__blue {
-    color: #0210A1;
-}
+/*.inform__h1__blue {*/
+/*    color: #0210A1;*/
+/*}*/
 
 /*!**!*/
 /*#mission {*/
@@ -348,6 +358,11 @@ p {
     height: 800px;
 }
 
+.IPO__detail {
+    color: var(--color-dark-blue);
+    border: 2px solid var(--color-dark-blue);
+}
+
 /*allocation*/
 #allocation {
     margin: auto;
@@ -360,6 +375,11 @@ p {
     background-color: darkgray;
     width: 385px;
     height: 800px;
+}
+
+.allocation__detail {
+    color: var(--color-dark-blue);
+    border: 2px solid var(--color-dark-blue);
 }
 
 /*contact*/
